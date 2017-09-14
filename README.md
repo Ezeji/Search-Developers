@@ -1,8 +1,6 @@
-# Intermediate-Track-Challenge
+This an android app for qualification into the Andela Android Learning Community - Intermediate Track.
 
-Hello there,
-
-I am Franklin Ezeji, a lover of technology to solve human problems. I develop desktop and mobile applications for now using c#,mySql,java and xml. Hoping to explore further.
-
-The changes made is simply the addition of codes to see that the android app is able to retrieve images and names from the API used (Github API).
-
+The android app fetches data of Github users for JAVA developers residing in Lagos(Images and Profile names) from the Github search API which it displays on a list item. 
+The data is shown on a horizontal linearlayout of the list item. On clicking a linearlayout, it pushes inwardly to display in addition the user's
+github url and a share-button. Further click on the share-button activates a share intent to enable the developer's details (Image,Profile name and Github url) to be shared
+on a social media platform.
